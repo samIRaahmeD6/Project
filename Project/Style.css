@@ -1,0 +1,214 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;   
+}
+body{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    /*background: #dfe6e9;*/
+    background-repeat: no-repeat;
+    background-size:cover;
+    background: linear-gradient(45deg,#1e272e, #182C61);
+}
+
+/* for Signup page */
+.wrapper{
+    position: relative;
+    background: linear-gradient(#1e272e, #182C61);
+    box-shadow: 0 0 6px rgba(228, 224, 224, 0.5);
+    height: 300px;
+    width: 20%;
+    color: #ffffff;
+    padding: 25px;
+    border-radius: 5px;
+    
+     
+}
+.wrapper .header{
+    margin-bottom: 12px;
+    position: relative; 
+
+}
+
+.wrapper .header .imag img{
+   
+align-items: center;
+height: 80px;
+width: 80px;
+margin-left: 115px;
+margin-bottom: 8px;
+}
+.wrapper .header .header1{
+   
+    
+    font-size: 26px;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 8px;
+}
+ form div.label1 label{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin-bottom: 3px;
+    font-size: 18px;
+}
+
+form div.holder input{
+   outline: none;
+   margin-bottom: 3px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   width: 98%;
+   border-radius: 3px; 
+   border: none; 
+   padding-left: 5px; 
+   position: relative;
+}
+form div.holder i{
+    position: absolute;
+    right: 34px;
+   color: #000051;
+    top: 245px;
+    cursor: pointer;
+}
+
+form div.holder i.active::before{
+    color: #000051;
+    content: "\f070";
+}
+#btn{
+    position: relative;
+    align-items: center;
+}
+
+
+ #btn input{
+    
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 20px;
+    text-align: center;
+    background: rgba(0, 0 ,0, 0.1);
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    margin-bottom: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 100%;   
+    color: white;
+}
+#btn input:hover{
+    background: linear-gradient(#1e272e, #182C61);
+    box-shadow: 0 0 6px rgba(75, 56, 181, 0.5);
+  color: white;
+}
+
+#btn input.active{
+   background-color:  #263238;
+}
+.wrapper div.footer{
+ margin-top: 15px;
+ margin-left: 70px;
+}
+.wrapper div.footer a{
+    color: white; 
+    padding-left: 2px; 
+}
+i#eyeBtn{
+ position: absolute;
+ top: 175px;
+ color: linear-gradient(45deg, #1e272e, #182C61);
+}
+.wrapper div.error-txt{
+    color: #721c24;
+    background: #f8d7da;
+    padding: 8px 10px;
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 15px;
+    border: 1px solid f5c6cb;
+    margin-top: 20px;
+}
+
+/* For signUp page */
+.wrapper1{
+    position: relative;
+    background: linear-gradient(#1e272e, #182C61);
+    box-shadow: 0 0 6px rgba(228, 224, 224, 0.5);
+    height: 400px;
+    width: 20%;
+    color: #fff;
+    padding: 25px;
+    border-radius: 5px;
+   
+}
+
+.wrapper1 .header{
+    margin-bottom: 12px;
+    position: relative;   
+}
+.wrapper1 .header .imag img{
+    display: inline;
+align-items: center;
+height: 80px;
+width: 80px;
+margin-left: 115px;
+margin-bottom: 8px;
+}
+.wrapper1 .header .header1{
+    
+    font-size: 26px;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 8px;
+}
+.wrapper1 div.footer{
+    margin-top: 10px;
+    margin-left: 70px;
+   }
+.wrapper1 div.footer a{
+    color: white; 
+    padding-left: 2px; 
+}
+.wrapper1 div.error-txt{
+    background: #576574;
+    text-align: center;
+    margin-top: 20px;
+   padding-top: 5px;
+   padding-bottom: 4px;
+    border-radius: 3px;
+    width: 100%;
+    display: none;
+}
+/*homepage*/
+
+
+div.head{
+    float: left;
+    background: #192a56;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    
+}
+div.head a{
+    color: #fff;
+    margin: 12px;
+
+}
+div.head img{
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+    position: absolute;
+    right: 35px;
+    
+}

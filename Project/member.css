@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+}
+body{
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, #1e272e, #182C61);
+    height: 100%;
+    position: relative;
+}
+.wrapper{
+    position: relative;
+    background: linear-gradient(#1e272e, #182C61);
+    box-shadow: 0 0 6px rgba(228, 224, 224, 0.5);
+  height: 720px;
+  width: 20%;
+  color: #fff;
+  line-height: 40px;
+  padding: 20px;
+  top: 40px;
+  border-radius: 8px;
+  left: 600px;
+}
+.header h1{
+    padding-top: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #fff;
+}
+
+.club select{
+    width: 100%;
+    height: 35px;
+    margin-bottom: 8px;
+    background: #fff;
+    border-radius: 4px;
+    border: none;
+}
+.name1 input{
+    width: 97.5%;
+    height: 35px;
+    margin-bottom: 8px;
+}
+
+.name2 input{
+    width: 97.5%;
+    height: 35px;
+    margin-bottom: 8px;
+}
+
+.department select{
+    width: 100%;
+    height: 35px;
+    background: #fff;
+    border-radius: 4px;
+    border: none;
+}
+.sem .label1{
+    font-size: 18px;
+}
+
+.sem1 .label1{
+font-size: 18px;
+}
+
+.DOB .day{
+    width: 83px;
+    border: none;
+    background: #fff;
+    border-radius: 2px;
+}
+.DOB .month{
+    width: 83px;
+    border: none;
+    background: #fff;
+    border-radius: 2px;
+}
+.DOB .year{
+    width: 83px;
+    border: none;
+    background: #fff;
+    border-radius: 2px;
+}
+.DOB .dob{
+    width: 253px;
+    height: 35px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+.adm select{
+    width: 100%;
+    height: 35px;
+    margin-bottom: 10px;
+    background: #fff;
+    border-radius: 4px;
+    border: none;
+}
+
+.mob input{
+    width: 97.5%;
+    height: 35px;
+    margin-bottom: 10px;
+}
+ .mail input{
+    width: 97.5%;
+    height: 35px;
+    margin-bottom: 10px;
+ }
+
+ .pass input{
+    width: 97.5%;
+    height: 35px;
+    margin-bottom: 10px;
+ }
+ .pass2 input{
+    width: 97.5%;
+    height: 35px;
+    margin-bottom: 8px;
+ }
+
+ #btn{
+    width: 100%;
+    height: 35px;
+    background: linear-gradient(#1e272e, #182C61);
+    box-shadow: 0 0 2px rgba(226, 221, 221, 0.5);
+    color: #fff;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border: none;
+ }
+ #btn:hover{
+    background: linear-gradient(#1e272e, #182C61);
+    box-shadow: 0 0 6px rgba(228, 224, 224, 0.5);
+ }
+ .sig a{
+    text-decoration: none;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+ }
+
+ .sig a:hover{
+    color: aqua;
+ }
+
+ .error{
+    background: #ff5252;
+    border-radius: 5px;
+    text-align: center;
+    display: none;
+    
+ }
+ 
+ .wrapper1{
+    left: 600px;
+    position: relative;
+    top: 200px;
+    background: linear-gradient(#1e272e, #182C61);
+    box-shadow: 0 0 6px rgba(228, 224, 224, 0.5);
+    color: #fff;
+    padding: 10px;
+    width: 20%;
+    height: 330px;
+    border-radius: 8px;
+    line-height: 30px;
+ }
+
+ .label3 label{
+    font-size: 18px;
+    
+ }
+
+ .in input{
+    width: 98%;
+    height: 35px;
+    margin-bottom: 25px;
+    border: none;
+    border-radius: 4px;
+ }
